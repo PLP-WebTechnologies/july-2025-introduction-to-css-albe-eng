@@ -1,0 +1,69 @@
+/* Universal selector - reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element selectors */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #0077cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #005fa3;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* ID selector - styling one specific section */
+#intro-image {
+    text-align: center;
+    background-color: #eef7ff;
+    padding: 20px;
+}
+
+/* Class selector - reusable style for highlighting text */
+.highlight {
+    color: #cc0000;
+    font-weight: bold;
+}
+
+/* Footer styling using element selector */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
